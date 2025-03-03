@@ -92,7 +92,7 @@ yarn test
 
 Swagger documentation is available at:
 ```
-http://localhost:3000/api
+http://localhost:3000/api/docs
 ```
 Ensure the server is running before accessing it.
 
