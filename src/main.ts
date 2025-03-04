@@ -9,7 +9,6 @@ async function bootstrap() {
   // Setup Swagger
   const config = new DocumentBuilder()
     .setTitle('Teacher-Student API')
-    .setDescription('API untuk mengelola teacher dan student')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
